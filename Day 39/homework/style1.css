@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: radial-gradient(circle, rgb(183, 155, 202) 25%, rgba(44, 22, 1, 0.905) 35%, rgb(59, 81, 68) 80%);
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+
+}
+
+h1 {
+    color: rgb(70, 21, 21);
+    border: 2px solid black;
+}
+
+p {
+    color: rgb(45, 1, 1);
+    border: 2px solid black;
+}
+
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+a:hover {
+    color: rgb(47, 0, 0);
+
+}

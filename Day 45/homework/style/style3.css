@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: radial-gradient(rgb(0, 0, 0), rgb(86, 64, 64));
+    color: whitesmoke;
+    height: 100vh;
+    justify-content: start;
+    margin-left: 10px;
+}

@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+tr:nth-child(even){
+    color: rgb(0, 87, 58);
+}
+th{
+    background-color: blueviolet;
+    color: bisque;
+    text-align: center;
+}
+td{
+    color: rgb(0, 0, 0);
+}

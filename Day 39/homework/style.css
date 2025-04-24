@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(55, 1, 28);
+    background: radial-gradient(circle, rgba(0, 81, 20, 0.933) 13%, rgba(67,135,109,0.9023984593837535) 54%, rgba(50,34,52,0.9051995798319328) 73%);
+}
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    color: rgb(255, 0, 0);
+}
+ul{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    margin-top: 50px;
+    list-style-image: url(./assets/icons/heart\ \(2\).png);
+    list-style-position: unset;
+}
+li:hover {
+    color: rgb(1, 0, 2);
+    cursor: grab;
+    text-decoration: line-through;
+}
+a {
+    text-decoration: none;
+    
+}
+li {
+    color: rgb(174, 0, 255);
+}

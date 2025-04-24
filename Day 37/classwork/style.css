@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&display=swap');
+fonts.googleapis.com
+* { 
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: linear-gradient(80deg, aqua, blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh; ;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: aqua;
+    font-weight: 800;
+}
+
+.card {
+    background-color: blue;
+    width: 250px;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px auto;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    text-align: center;
+    color: darkblue;
+    font-weight: 500;
+}

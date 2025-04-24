@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-image: url(./assets/image/Platypus.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%, cover;
+    color: rgb(5, 28, 71);
+}
+
+h1 {
+    background-image: url(./assets/image/blue-background-7470781_1280.jpg);
+    width: 100px;
+    background-size: cover;
+    border-radius: 50%;
+    height: 40px;
+    font-size: small;
+    text-align: center;
+    border: 4px solid rgb(2, 0, 0);
+    color: rgb(0, 0, 0);
+}

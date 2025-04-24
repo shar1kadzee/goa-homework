@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-1 {
+    background: rgb(143, 184, 71);
+    background: linear-gradient(162deg, rgba(143, 184, 71, 1) 2%, rgba(9, 121, 75, 0.8911939775910365) 20%, rgba(46, 70, 37, 1) 66%);
+    height: 100vh;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+
+}
+
+p {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.body-2 {
+    background: rgb(169, 117, 204);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(137, 253, 46, 0.9051995798319328) 71%, rgba(69, 252, 195, 1) 100%);
+}
+
+.body-3 {
+    background: rgb(43, 3, 69);
+    background: radial-gradient(circle, rgb(98, 56, 126) 25%, rgba(66, 35, 5, 0.905) 35%, rgb(1, 57, 25) 80%);
+}
+
+.body-4 {
+    background: rgb(48, 95, 1);
+    background: radial-gradient(circle, rgba(37, 168, 54, 0.933) 25%, rgba(199, 30, 98, 1) 53%, rgba(201, 129, 29, 0.905) 66%);
+}
+
+.body-5 {
+    background: rgb(7, 7, 141);
+    background: radial-gradient(circle, rgba(40, 40, 121, 0.933) 25%, rgba(67, 82, 135, 0.9023984593837535) 53%, rgba(10, 46, 75, 0.905) 66%);
+}

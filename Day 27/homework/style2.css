@@ -1,0 +1,14 @@
+.h-1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(165, 123, 123);
+    font-weight: 400;
+    font-style:unset;
+    color: burlywood
+}
+
+.p-1 {
+    font-size: medium;
+    font-weight: lighter;
+    color: rgb(15, 67, 120);
+    background-color: rgb(158, 167, 167);
+}

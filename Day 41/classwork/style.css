@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./assets/image/legvi.jpg);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+}
+#hover:hover{
+    color: rgb(40, 0, 0);
+    text-decoration: underline;
+    background-color: rgb(75, 101, 93);
+}
+#visited:visited{
+    color: rgb(59, 44, 44);
+    
+}

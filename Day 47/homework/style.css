@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.task {
+    height: fit-content;
+    padding: 20px 0px;
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #042f41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: #0262a1;
+}
+
+.task-1 {
+    background-color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.task-2 {
+    background-color: rgb(61, 17, 1);
+    flex-wrap: wrap-reverse;
+    align-content: flex-start;
+}
+
+.task-3 {
+    background-color: rgb(57, 1, 15);
+    justify-content: center;
+}
+
+.task-4 {
+    background-color: rgb(32, 2, 69);
+    justify-content: space-around;
+}
+
+.task-5 {
+    background-color: rgb(79, 72, 2);
+    justify-content: space-between;
+}
+
+.task-6 {
+    background-color: rgb(71, 37, 2);
+}
+
+.task-6 .box {
+    width: 240px;
+}
+
+.task-6 .box-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box--special {
+    max-width: 100px;
+    margin-left: auto;
+    background-color: rgb(224, 133, 7);
+}
+
+.task-7 {
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-color: rgb(1, 50, 5);
+}
+
+.task-7.task {
+    height: 650px;
+}
+
+.task-7 .box {
+    height: unset;
+    display: block;
+    text-align: center;
+}
+
+.task-8 {
+    background-color: brown;
+}
+
+.task-8 .box:nth-child(2) {
+    flex-grow: 2;
+}
+
+.task-8 .box:last-child {
+    flex-grow: 3;
+}

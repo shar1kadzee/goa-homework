@@ -1,0 +1,12 @@
+p{
+    border: 3px solid black;
+}
+
+body{
+    background-image: linear-gradient(rgb(276, 78, 4), rgb(115, 196, 251));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

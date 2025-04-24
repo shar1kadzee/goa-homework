@@ -1,0 +1,17 @@
+.h-1 {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    color: rgb(174, 203, 178);
+    font-size: larger;
+    background-color: rgb(64, 1, 86);
+    font-weight:900;
+   
+}
+
+.p-1 {
+    color: rgb(185, 141, 209);
+    font-weight:normal;
+    font-style:initial;
+    background-color:black;
+}

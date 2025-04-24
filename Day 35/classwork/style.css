@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/image/download.jpg),
+        url(./assets/image/download\ \(2\).jpg);
+
+    background-repeat: no-repeat;
+    background-size: 50%, 50%, cover;
+    background-position: left, right;
+}
+
+h1 {
+    background-image: url(./assets/image/download\ \(1\).jpg);
+    width: 100px;
+    background-size: cover;
+    border-radius: 55%;
+    height: 100px;
+    font-size: medium;
+    text-align: center;
+    border: 4px solid black;
+}

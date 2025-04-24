@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    color: rgb(35, 21, 0);
+}
+body{
+    background-image: url( ./assets/image/kodala.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    
+}
+

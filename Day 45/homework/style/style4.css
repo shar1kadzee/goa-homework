@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(rgb(0, 0, 0), rgb(88, 3, 88));
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    margin-left: 10px;
+    color: white;
+}
