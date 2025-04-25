@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Inter-Bold";
+    src: url(../assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(../assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url(../assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+/*! font class start */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    font-family: "Inter-Regular";
+}
+
+.font-bold {
+    font-family: "Inter-Bold";
+}
+
+.font-regular {
+    font-family: "Inter-Regular";
+}
+
+.font-sbold {
+    font-family: "Inter-SemiBold";
+}
+
+.profile-card {
+    text-align: center;
+    background: #1c1c1c;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.location {
+    color: rgb(196, 248, 42);
+    font-size: 14px;
+    padding: 10px;
+}
+
+.bio {
+    color: hsl(0, 0%, 20%);
+    font-size: 14px;
+    margin: 10px;
+    
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cls {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cls:hover {
+    background: hsl(75, 94%, 57%);
+}
