@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    max-width: 500px;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(79, 36, 2);
+    overflow: hidden;
+    animation-name: bounce;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    margin: 0 auto;
+    border-radius: 100%;
+
+}
+
+@keyframes bounce {
+
+    0% {
+        opacity: 0;
+        transform: translateY(1);
+        animation-timing-function: ease-in;
+    }
+
+    50% {
+        transform: translateY(50px);
+        animation-timing-function: ease-out;
+    }
+
+    100% {
+        opacity: 2;
+    }
+
+}
